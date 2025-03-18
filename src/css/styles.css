@@ -12,7 +12,10 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero.css');
+@import url('./aboutus.css');
+@import url('./ouryachts.css');
+@import url('./advantages.css');
+@import url('./rent.css');
+@import url('./reviews.css');
 @import url('./footer.css');
