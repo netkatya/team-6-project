@@ -27,6 +27,15 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
 }
 
 img {
