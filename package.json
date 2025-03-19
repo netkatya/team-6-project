@@ -1,11 +1,11 @@
 {
-  "name": "team-7-project",
+  "name": "team-6-project",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-7-project/",
+    "build": "vite build --base=/team-6-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
