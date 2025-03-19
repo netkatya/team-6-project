@@ -42,3 +42,232 @@
 .nav-link.active::after {
   background: #747bff;
 }
+.header {
+  padding: 20px 0 0;
+  background-image: image-set(url(../images/background/yacht-mob.jpg) 1x,
+      url(../images/background/yacht-mob@2x.jpg) 2x);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.header-container {
+  border-radius: 8px;
+  background: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 295px;
+  padding: 0 20px;
+  height: 42px;
+}
+
+.header-list,
+.social-links-list {
+  display: none;
+}
+
+.logo-header {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+  padding: 14px 0;
+}
+
+.link-icon {
+  fill: #1b414b;
+}
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.burger-icon {
+  display: block;
+  stroke: #1b414b;
+}
+
+/* tab */
+@media screen and (min-width: 768px) {
+  .header {
+    background-image: image-set(url(../images/background/yacht-tab.jpg) 1x,
+        url(../images/background/yacht-tab@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .header-container {
+    max-width: 704px;
+    height: 48px;
+    padding: 0 34px 0 28px;
+  }
+
+  .logo-header {
+    font-size: 20px;
+  }
+
+  .header-list,
+  .social-links-list {
+    display: flex;
+  }
+
+  .social-links-list {
+    gap: 8px;
+  }
+
+  .header-list {
+    margin: 0 96px 0 113px;
+    gap: 4px;
+  }
+
+  .header-link {
+    display: flex;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.3;
+    border-radius: 8px;
+    background-color: #1b414b80;
+    width: 91px;
+    height: 40px;
+    color: #fbfbfb;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .header {
+    background-image: image-set(url(../images/background/yacht.jpg) 1x,
+        url(../images/background/yacht@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .header-container {
+    max-width: 1080px;
+    padding: 0 30px;
+  }
+
+  .header-list {
+    margin: 0 283px 0 296px;
+  }
+}
+
+/* #endregion Header */
+/* #region HERO */
+/* mob */
+.hero {
+  padding: 198px 0 243px;
+  background-image: image-set(url(../images/background/yacht-mob.jpg) 1x,
+      url(../images/background/yacht-mob@2x.jpg) 2x);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-hero {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 100%;
+}
+
+.text-hero {
+  max-width: 335px;
+  max-height: 56px;
+  margin: 24px auto 38px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+.link-hero {
+  border-radius: 15px;
+  padding: 14px 32px;
+  width: 141px;
+  height: 46px;
+  background: #1b414b;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+/* tab */
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: image-set(url(../images/background/yacht-tab.jpg) 1x,
+        url(../images/background/yacht-tab@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .title-hero {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+  }
+
+  .midle-line {
+    display: block;
+    width: 100%;
+  }
+
+  .text-hero {
+    max-width: 570px;
+    margin: 24px auto 48px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+  }
+
+  .link-hero {
+    min-width: 179px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
