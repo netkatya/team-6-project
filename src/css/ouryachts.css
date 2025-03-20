@@ -1,4 +1,4 @@
-.our-yachts-section-cont {
+.our-yachts-section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -68,6 +68,8 @@
   font-weight: 400;
   font-size: 12px;
 
+  min-width: 96px;
+
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -81,7 +83,6 @@
   justify-content: space-between;
 
   margin-bottom: 6px;
-  width: 270px;
 
   font-size: 14px;
 
@@ -98,7 +99,7 @@
 .our-yachts-section-cart-property-span {
   text-transform: none;
 
-  width: 96px;
+  min-width: 96px;
 
   line-height: 1;
   letter-spacing: 0.03em;
