@@ -1,40 +1,78 @@
-/* .reviews {
-    margin-bottom: 80px;
+.reviews {
+  padding: 40px 0;
 }
 .reviews-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 25px;
-    margin-bottom: 40px;
+  max-width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
 }
 .reviews-title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: 0 auto;
 }
 .reviews-text {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    opacity: 0.4;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
 }
 .reviews-list {
-    background-color: #fbfbfb;
-    border-radius: 24px;
-    padding: 32px 8px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .reviews-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 335px;
+  padding: 32px 16px;
+  background-color: #fbfbfb;
+  border-radius: 24px;
+}
+.reviews-foto {
+  margin-bottom: 24px;
 }
 .reviews-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
 }
 .reviews-subtext {
-} */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
