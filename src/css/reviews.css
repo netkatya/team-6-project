@@ -2,12 +2,10 @@
   padding: 40px 0;
 }
 .reviews-content {
-  max-width: 335px;
-  display: flex;
+  max-width: 315px;
+  display: block;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 25px;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 .reviews-title {
@@ -17,7 +15,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  margin: 0 auto;
+  margin-bottom: 25px;
 }
 .reviews-text {
   font-weight: 400;
