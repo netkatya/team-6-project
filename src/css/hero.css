@@ -1,8 +1,14 @@
 .hero {
-    min-width: 375px;
+    max-width: 375px;
     margin: 0 auto;
-    padding-top: 198px;
-    padding-bottom: 243px;
+    background-image: linear-gradient(rgba(17, 19, 31, 0.8), 
+    rgba(17, 19, 31, 0.8)), url(/img/background-mob.jpg);
+     
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding-top: 260px;
+     padding-bottom: 302px;
 }
 
 .hero-title {
@@ -49,6 +55,14 @@
       .hero-btn:focus {
       background-color: #fbfbfb;
       color: #1b414b;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 2x) {
+     .hero {
+      background-image: linear-gradient(rgba(17, 19, 31, 0.8),
+      rgba(17, 19, 31, 0.8)), url(../img/background-mob@2x.jpg)
+     } 
+      
 }
 
 @media screen and (min-width: 768px) {
