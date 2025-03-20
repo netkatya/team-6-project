@@ -1,0 +1,134 @@
+.our-yachts-section-cont {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.our-yachts-section-header {
+  max-width: 334px;
+
+  font-weight: 500;
+  font-size: 28px;
+
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.our-yachts-section-list {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.our-yachts-section-cart {
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  max-width: 334px;
+
+  padding: 16px 16px 32px;
+}
+
+.our-yachts-section-cart-img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.our-yachts-section-cart-texts {
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+
+.our-yachts-section-cart-header {
+  font-weight: 500;
+  font-size: 14px;
+
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.our-yachts-section-cart-header::after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: rgba(4, 3, 6, 0.1);
+  position: absolute;
+  left: 0;
+  bottom: -16px;
+}
+
+.our-yachts-section-cart-header-span {
+  font-weight: 400;
+  font-size: 12px;
+
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+  text-align: right;
+}
+
+.our-yachts-section-cart-property {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 6px;
+  width: 270px;
+
+  font-size: 14px;
+
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: hsl(260, 33%, 2%, 0.4);
+}
+
+.our-yachts-section-cart-property.last-row {
+  margin-bottom: 0;
+}
+
+.our-yachts-section-cart-property-span {
+  text-transform: none;
+
+  width: 96px;
+
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: hsl(260, 33%, 2%, 1);
+  opacity: 1;
+}
+
+.our-yachts-section-button {
+  display: block;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 14px 32px;
+  min-width: 141px;
+  height: 46px;
+  background-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-weight: 500;
+  font-size: 14px;
+
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.our-yachts-section-button:hover,
+.our-yachts-section-button:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
