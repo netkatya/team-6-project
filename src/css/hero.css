@@ -1,9 +1,8 @@
 .hero {
     position: relative; 
-    max-width: 375;
-    margin: 0 auto;
-    background-image: linear-gradient(rgba(17, 19, 31, 0.8), 
-    rgba(17, 19, 31, 0.8)), url(/img/background-mob.jpg);
+    background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+     rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+     url(/img/background-mob.jpg);
      
      background-size: cover;
      background-repeat: no-repeat;
@@ -18,7 +17,6 @@
      line-height: 1;
      letter-spacing: -0.02em;
      text-align: center;
-     color: #fbfbfb;
      max-width: 335px;
      margin: 0 auto;
      margin-bottom: 24px;
@@ -30,15 +28,12 @@
      line-height: 1.17;
      text-align: center;
      color: rgba(251, 251, 251, 0.7);
-     max-width: 335px;
      margin: 0 auto;
      margin-bottom: 38px;
 }
 
 .hero-btn {
-     display: flex;
-     align-items: center;
-     justify-content: center;
+     display: block;
      border-radius: 15px;
      padding: 14px 32px;
      width: 141px;
@@ -49,7 +44,6 @@
      font-size: 14px;
      line-height: 1.29;
      letter-spacing: -0.02em;
-     color: #fbfbfb;
      transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 
@@ -61,8 +55,9 @@
 
 @media screen and (max-width: 767px) and (min-resolution: 2x) {
      .hero {
-      background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-      rgba(17, 19, 31, 0.8)), url(/img/background-mob@2x.jpg)
+      background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+      rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+      url(/img/background-mob@2x.jpg)
      } 
       
 }
@@ -70,9 +65,10 @@
 @media screen and (min-width: 768px) {
 
     .hero {
-      max-width: 768px;
-      background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-      rgba(17, 19, 31, 0.8)), url(/img/background-tab.jpg);
+      
+      background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+      rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+      url(/img/background-tab.jpg);
       padding-top: 280px;
       padding-bottom: 282px;
     }
@@ -80,12 +76,14 @@
     .hero-title {
       max-width: 650px;
       font-size: 70px;
+      margin: auto;
       
     }
 
     .hero-text {
       font-size: 16px;
       line-height: 1.4;
+      margin: auto;
       max-width: 597px;
       margin-bottom: 48px;
     }
@@ -97,36 +95,40 @@
       height: 52px;
       font-size: 14px;
       line-height: 1.29;
+      text-align: center;
     }
 }
 
 
 @media screen and (min-width: 768px) and (min-resolution: 2x) {
       .hero {
-      background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-      rgba(17, 19, 31, 0.8)), url(/img/background-tab@2x.jpg)
+      background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+      rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+      url(/img/background-tab@2x.jpg)
      }
 
 }
 
 @media screen and (min-width: 1280px) {
      .hero {
-           max-width: 1280px;
-           background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-           rgba(17, 19, 31, 0.8)), url(/img/background-desk.jpg);
-          padding-top: 235px;
-          padding-bottom: 215px;
+           
+           background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+           rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+           url(/img/background-desk.jpg);
+           padding-top: 235px;
+           padding-bottom: 215px;
      }
           .hero-title {
-               max-width: 1001px;
-               font-size: 80px
+           max-width: 1001px;
+           font-size: 80px
           }
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 2x) {
       .hero {
-      background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-      rgba(17, 19, 31, 0.8)), url(/img/background-desk@2x.jpg)
+      background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+      rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+      url(/img/background-desk@2x.jpg)
      }
 
 }
@@ -134,9 +136,10 @@
 
 @media screen and (min-width: 1440px) {
       .hero {
-           max-width: 1440px;
-           background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-           rgba(17, 19, 31, 0.8)), url(/img/background-desk-big.jpg);
+           
+           background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+           rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+           url(/img/background-desk-big.jpg);
           
      }
 
@@ -144,8 +147,9 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 2x) {
       .hero {
-           background-image: linear-gradient(rgba(17, 19, 31, 0.8),
-           rgba(17, 19, 31, 0.8)), url(../img/background-desk-big@2x.jpg)
+           background-image: linear-gradient(rgba(17, 19, 31, 0.15),
+           rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
+           url(../img/background-desk-big@2x.jpg)
      }
 
 }
