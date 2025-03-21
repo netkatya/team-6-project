@@ -1,10 +1,10 @@
 <section class="aboutus">
   <div class="container">
-    <div class="aboutus-content">
+    <div class="aboutus-container">
       <h2 class="aboutus-title">
         YachtJet fleet is here to take you on the ultimate adventure
       </h2>
-      <div class="aboutus-descr">
+      <div class="aboutus-descr-container">
         <p class="aboutus-subtitle">
           From spacious decks to state-of-the-art technology, our yachts are
           designed to provide the perfect blend of luxury and functionality.
@@ -17,17 +17,42 @@
           the high seas.
         </p>
       </div>
-      <img
-        class="aboutus-image"
-        src="./node_modules/src/img/aboutus/jacht-mob-1x.jpg"
-        srcset="
-          /node_modules/src/img/aboutus/jacht-mob-1x.png 1x,
-          /node_modules/src/img/aboutus/jacht-mob-2x.png 2x
-        "
-        alt="jacht-at-night"
-        width="56"
-        height="56"
-      />
     </div>
+    <picture class="aboutus-image">
+      <source
+        srcset="
+          /src/img/aboutus/yacht-mob.png    1x,
+          /src/img/aboutus/yacht-mob@2x.png 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          /src/img/aboutus/yacht-tab.png    1x,
+          /src/img/aboutus/yacht-tab@2x.png 2x
+        "
+        media="(max-width: 1279px)"
+      />
+      <source
+        srcset="
+          /src/img/aboutus/yacht-d.png    1x,
+          /src/img/aboutus/yacht-d@2x.png 2x
+        "
+        media="(max-width: 1439px)"
+      />
+      <source
+        srcset="
+          /src/img/aboutus/yacht-desk.png    1x,
+          /src/img/aboutus/yacht-desk@2x.png 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <img
+        src="/src/img/aboutus/yacht-mob.png"
+        alt="jacht-at-night"
+        width="335"
+        height="395"
+      />
+    </picture>
   </div>
 </section>

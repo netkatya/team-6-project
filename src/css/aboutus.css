@@ -2,8 +2,13 @@
 
 .container {}
 
-.aboutus-content {
+.aboutus-container {
     padding: 40px 20px 90px 20px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border: none;
+    background-color:#fbfbfb;
+    text-align: left;
 }
 
 .aboutus-title {
@@ -14,8 +19,12 @@
     color: #1b414b;
     margin-bottom: 40px;
 }
+.aboutus-descr-container {
+    flex-direction: column;
+    gap: 20px;
+}
 
-.aboutus-descr {
+.aboutus-subtitle {
     font-weight: 400;
     font-size: 18px;
     line-height: 1;
