@@ -83,6 +83,10 @@
   .rent-form-input {
     height: 54px;
   }
+  .rent-form-input::placeholder {
+    font-size: 14px;
+    line-height: 129%;
+  }
   .rent-textarea {
     height: 116px;
   }
