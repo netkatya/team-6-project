@@ -1,11 +1,11 @@
 .mob-menu {
-  position: fixed; /* Закріплення на екрані */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 
-  background-color: #0e1823; /* Фон сторінки */
+  background-color: #0e1823;
 
   /* opacity: 0;
   visibility: hidden;
@@ -31,16 +31,16 @@
 
 .mob-header {
   display: flex;
-  justify-content: space-between; /* Логотип зліва, кнопка справа */
+  justify-content: space-between;
   align-items: center;
-  background-color: #fbfbfb; /* Фон панелі */
+  background-color: #fbfbfb;
 
   border-radius: 8px;
   width: 335px;
   height: 42px;
 
-  position: absolute; /* Фіксуємо позицію */
-  left: 50%; /* Центруємо */
+  position: absolute;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -74,9 +74,9 @@
 .mob-menu-list {
   list-style: none;
   display: flex;
-  flex-direction: column; /* Робимо вертикальний список */
+  flex-direction: column;
   align-items: center;
-  /* Центруємо по горизонталі */
+
   gap: 8px;
 }
 
@@ -91,8 +91,8 @@
 
 .mob-menu-link {
   display: block;
-  width: 91px; /* Ширина кнопки */
-  height: 40px; /* Максимальна ширина */
+  width: 91px;
+  height: 40px;
   padding: 15px 25px;
   text-align: center;
 
@@ -122,13 +122,12 @@
 
 @media (min-width: 320px) and (max-width: 375px) {
   .mob-header {
-    padding: 16px 20px; /* Фіксовані відступи */
+    padding: 16px 20px;
   }
 }
-/*
+
 @media screen and (min-width: 768px) {
   .mob-menu {
     display: none;
   }
 }
-*/
