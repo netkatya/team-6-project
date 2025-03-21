@@ -12,24 +12,24 @@
 }
 
 .hero-title {
-     font-weight: 500;
-     font-size: 32px;
-     line-height: 1;
-     letter-spacing: -0.02em;
-     text-align: center;
-     max-width: 335px;
-     margin: 0 auto;
-     margin-bottom: 24px;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      text-align: center;
+      max-width: 335px;
+      margin: 0 auto;
+      margin-bottom: 24px;
 }
 
 .hero-text {
-     font-weight: 300;
+    font-weight: 300;
      font-size: 12px;
      line-height: 1.17;
      text-align: center;
      color: rgba(251, 251, 251, 0.7);
      margin: 0 auto;
-     margin-bottom: 38px;
+     margin-bottom: 38px; 
 }
 
 .hero-btn {
@@ -85,6 +85,7 @@
       line-height: 1.4;
       margin: auto;
       max-width: 597px;
+      margin-top: 24px;
       margin-bottom: 48px;
     }
 
