@@ -1,0 +1,134 @@
+.mob-menu {
+  position: fixed; /* Закріплення на екрані */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: #0e1823; /* Фон сторінки */
+
+  /* opacity: 0;
+  visibility: hidden;
+  pointer-events: none; */
+}
+/*
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+*/
+
+.mob-menu-container {
+  position: relative;
+  padding: 16px 20px 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.mob-header {
+  display: flex;
+  justify-content: space-between; /* Логотип зліва, кнопка справа */
+  align-items: center;
+  background-color: #fbfbfb; /* Фон панелі */
+
+  border-radius: 8px;
+  width: 335px;
+  height: 42px;
+
+  position: absolute; /* Фіксуємо позицію */
+  left: 50%; /* Центруємо */
+  transform: translateX(-50%);
+}
+
+.logo {
+  width: 52px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
+
+.mob-btn-close {
+  background: none;
+  border: none;
+  top: 7px;
+  right: 20px;
+  width: 28px;
+  height: 28px;
+  fill: #055545;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: auto;
+}
+
+.mob-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column; /* Робимо вертикальний список */
+  align-items: center;
+  /* Центруємо по горизонталі */
+  gap: 8px;
+}
+
+.mob-menu-item {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.mob-menu-link {
+  display: block;
+  width: 91px; /* Ширина кнопки */
+  height: 40px; /* Максимальна ширина */
+  padding: 15px 25px;
+  text-align: center;
+
+  background-color: rgba(27, 65, 75, 0.5);
+  border-radius: 8px;
+  text-decoration: none;
+
+  transition: background-color 0.3s; /* Плавна зміна кольору */
+}
+
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  background-color: #1b414b;
+  color: #fbfbfb;
+}
+
+.mob-social-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.mob-icon {
+  fill: #fbfbfb;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .mob-header {
+    padding: 16px 20px; /* Фіксовані відступи */
+  }
+}
+/*
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+*/
