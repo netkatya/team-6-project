@@ -9,6 +9,8 @@
     border: none;
     background-color:#fbfbfb;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutus-title {
@@ -17,11 +19,11 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #1b414b;
+    max-width: 295px;
     margin-bottom: 40px;
 }
 .aboutus-descr-container {
-    flex-direction: column;
-    gap: 20px;
+    max-width: 295px;
 }
 
 .aboutus-subtitle {
@@ -36,8 +38,94 @@
 .aboutus-text {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     color: #040306;
     margin-bottom: 40px;
+    opacity: 0.4;
+}
+.aboutus-image {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+        .aboutus {}
+    
+        .container {}
+    
+        .aboutus-container {}
+    
+    .aboutus-title {
+    max-width: 536px;
+    font-size: 48px;}
+    margin-bottom: 50px;
+    
+    .aboutus-descr-container {
+        max-width: 389px;
+    }
+    
+    .aboutus-subtitle {;
+    font-size: 23px;}
+    
+    .aboutus-text {
+    font-size: 13px;
+    line-height: 1.15;}
+    
+        .aboutus-image {}
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+        .aboutus {}
+    
+        .container {}
+    
+    .aboutus-container {flex-direction: row;
+    justify-content: space-between;
+    }
+    
+    .aboutus-title {
+    max-width: 537px;}
+    
+    .aboutus-descr-container {
+    max-width: 354px;
+        }
+    
+    .aboutus-subtitle {
+    }
+    
+    .aboutus-text {}
+    
+        .aboutus-image {}
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+        .aboutus {}
+    
+        .container {}
+    
+        .aboutus-container {}
+    
+    .aboutus-title {}
+    
+    .aboutus-descr-container {
+    max-width: 404px;
+    }
+    
+    .aboutus-subtitle {}
+    
+    .aboutus-text {}
+    
+        .aboutus-image {}
 }
