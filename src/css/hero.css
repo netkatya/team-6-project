@@ -1,6 +1,6 @@
 .hero {
     position: relative; 
-    max-width: 375px;
+    max-width: 375;
     margin: 0 auto;
     background-image: linear-gradient(rgba(17, 19, 31, 0.8), 
     rgba(17, 19, 31, 0.8)), url(/img/background-mob.jpg);
