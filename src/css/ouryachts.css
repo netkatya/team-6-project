@@ -25,14 +25,11 @@
 .our-yachts-section-cart {
   background-color: #fbfbfb;
   border-radius: 24px;
-  max-width: 335px;
 
   padding: 16px 16px 32px;
 }
 
 .our-yachts-section-cart-img {
-  max-width: 302px;
-  max-height: 240px;
   object-fit: cover;
   display: block;
   margin: 0 auto 32px;
@@ -149,6 +146,12 @@
   color: #1b414b;
 }
 
+@media screen and (max-width: 767px) {
+  .our-yachts-section-list-item:not(:nth-child(1)) {
+    display: none;
+  }
+}
+
 /* #endregion Styles-for-Mobile-devices */
 
 /* #region Styles-for-Tablet-devices */
@@ -162,7 +165,6 @@
     max-width: 613px;
     font-size: 48px;
 
-    /* margin: 0 auto 75px; */
     margin-bottom: 75px;
   }
 
@@ -175,12 +177,7 @@
   }
 
   .our-yachts-section-cart {
-    max-width: 336px;
-  }
-
-  .our-yachts-section-cart-img {
-    max-width: 304px;
-    max-height: 268px;
+    flex-basis: calc((100% - 31px) / 2);
   }
 
   .our-yachts-section-cart-texts {
@@ -207,25 +204,15 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .our-yachts-section-list-item:not(:nth-child(1)) {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .our-yachts-section-list-item:last-child {
     display: none;
-  }
-
-  .our-yachts-section-cart-header-main-text {
-    width: 148px;
   }
 }
 /* #endregion Styles-for-Tablet-devices */
 
 /* #region Styles-for-Desktop-devices */
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
+@media screen and (min-width: 1280px) {
   .our-yachts-section-header {
     max-width: 690px;
   }
@@ -236,12 +223,7 @@
   }
 
   .our-yachts-section-cart {
-    max-width: 377px;
-  }
-
-  .our-yachts-section-cart-img {
-    max-width: 345px;
-    max-height: 268px;
+    flex-basis: calc((100% - 48px) / 3);
   }
 
   .our-yachts-section-cart-texts {
@@ -266,12 +248,7 @@
   }
 
   .our-yachts-section-cart {
-    max-width: 392px;
-  }
-
-  .our-yachts-section-cart-img {
-    max-width: 360px;
-    max-height: 268px;
+    flex-basis: calc((100% - 64px) / 3);
   }
 
   .our-yachts-section-cart-texts {
