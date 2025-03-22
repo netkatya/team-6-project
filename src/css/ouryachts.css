@@ -30,15 +30,17 @@
 .our-yachts-section-cart {
   background-color: #fbfbfb;
   border-radius: 24px;
-
-
   padding: 16px 16px 32px;
+  transition: transform 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.our-yachts-section-cart:hover {
+  transform: scale(1.05);
 }
 
 .our-yachts-section-cart-img {
-
   object-fit: cover;
-
   display: block;
   margin: 0 auto 32px;
 }
