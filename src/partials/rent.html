@@ -1,0 +1,80 @@
+<section class="rent-section">
+  <div class="container rent-container">
+    <div class="rent-text-container">
+      <h2 class="rent-heading">Rent a yacht now</h2>
+      <form action="rent-form">
+        <div class="rent-form-container">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Full Name"
+            class="rent-form-input"
+            required
+          />
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            class="rent-form-input"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
+          <input
+            type="tel"
+            name="user-tel"
+            id="user-tel"
+            placeholder="Number"
+            class="rent-form-input"
+            required
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+          />
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            class="rent-form-input rent-textarea"
+          ></textarea>
+        </div>
+        <button type="submit" class="rent-form-button">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="
+          /img/rent-img/rent-yacht-desk1440.png    1x,
+          /img/rent-img/rent-yacht-desk1440@2x.png 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          /img/rent-img/rent-yacht-desk.png    1x,
+          /img/rent-img/rent-yacht-desk@2x.png 2x
+        "
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="
+          /img/rent-img/rent-yacht-tablet.png    1x,
+          /img/rent-img/rent-yacht-tablet@2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          /img/rent-img/rent-yacht-mb.png    1x,
+          /img/rent-img/rent-yacht-mb@2x.png 2x
+        "
+        media="(max-width: 767px)"
+      />
+
+      <img
+        src="../img/rent-img/rent-yacht-mb.jpg"
+        alt="photo of luxurious yacht"
+        class="rent-img"
+      />
+    </picture>
+  </div>
+</section>
