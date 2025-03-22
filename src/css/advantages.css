@@ -1,72 +1,126 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: #0e1823;
-    font-family: Arial, sans-serif;
+@media screen and (min-width: 320px) {
+}
+@media screen and (min-width: 375px) {
+  .advantages {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    display: flex;
     gap: 32px;
+    margin: 150px 32px;
   }
-  
-  .info-box {
+  .advantages-yacht {
     border-radius: 24px;
-    width: 768px;
+    background-color: #1B414B #1B414B ;
+    width: 704px;
     height: 424px;
-    background: #1b414b;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 90px;
-    padding-top: 90px;
+  }
+  .advantages-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 0;
+    margin: 90px 50px;
   }
-  
-  .info-item {
-    color: #fbfbfb;
-    margin-bottom: 44px;
-    margin-right: 32px;
+  .advantages-item {
+    position: relative;
   }
-  
-  .info-item h2 {
-    font-family: var(--font-family);
+  .advantages-header {
     font-weight: 500;
     font-size: 32px;
-    /* line-height: 32px; */ 
     line-height: 1;
     letter-spacing: -0.05em;
+    color: #FBFBFB #FBFBFB ;
   }
-  
-  .info-item p {
-    font-family: var(--font-family);
+  .advantages-header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin: 18px auto;
+    border-radius: 18px;
+    width: 304px;
+    height: 2px;
+    background: rgba(251, 251, 251, 0.1);
+  }
+  .advantages-text {
     font-weight: 400;
     font-size: 13px;
-    /* line-height: 15px; */ 
     line-height: 1.15;
     letter-spacing: -0.02em;
+    color: #FBFBFB #FBFBFB ;
     opacity: 0.8;
   }
-  .line {
+  .advantages-img {
+    min-width: 704px;
+    min-height: 424px;
+  }
+  .advantages-image {
+    border-radius: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    margin: 150px 50px;
+  }
+  .advantages-yacht {
+    width: 716px;
+  }
+  .advantages-header::after {
+    width: 280px;
+  }
+  .advantages-img {
+    max-width: 432px;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advantages {
+    margin: 150px 50px;
+  }
+  .advantages-yacht {
+    width: 768px;
+  }
+  .advantages-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 90px 50px;
+  }
+  .advantages-item {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .advantages-header {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #FBFBFB #FBFBFB ;
+  }
+  .advantages-header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin: 18px auto;
     border-radius: 18px;
     width: 318px;
     height: 2px;
     background: rgba(251, 251, 251, 0.1);
-    margin-top: 18px;
-    margin-bottom: 18px;
   }
-  
-  .image-box img {
-    border-radius: 24px;
-    width: 540px;
-    height: 424px;
+  .advantages-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #FBFBFB #FBFBFB ;
+    opacity: 0.8;
   }
-  
+  .advantages-img {
+    min-width: 540px;
+  }
+}
