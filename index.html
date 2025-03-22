@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/team-6-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-6-project/assets/index-NswyISAr.css">
+    <link rel="stylesheet" crossorigin href="/team-6-project/assets/index-CMi5HUfT.css">
   </head>
   <body>
     <header class="header">
@@ -288,7 +288,75 @@
 </section>
 
       
-      
+      <section class="rent-section">
+  <div class="container rent-container">
+    <div class="rent-text-container">
+      <h2 class="rent-heading">Rent a yacht now</h2>
+      <form action="rent-form">
+        <div class="rent-form-container">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Full Name"
+            class="rent-form-input"
+            required
+          />
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            class="rent-form-input"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
+          <input
+            type="tel"
+            name="user-tel"
+            id="user-tel"
+            placeholder="Number"
+            class="rent-form-input"
+            required
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+          />
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            class="rent-form-input rent-textarea"
+          ></textarea>
+        </div>
+        <button type="submit" class="rent-form-button">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="/team-6-project/assets/rent-yacht-desk1440-D0BA_inT.png 1x, /team-6-project/assets/rent-yacht-desk1440@2x-B5l_9XPC.png 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/team-6-project/assets/rent-yacht-desk-qpTbb_4c.png 1x, /team-6-project/assets/rent-yacht-desk@2x-BzSvBVbf.png 2x"
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="/team-6-project/assets/rent-yacht-tablet-D39H8R-P.png 1x, /team-6-project/assets/rent-yacht-tablet@2x-QNCTVLfM.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/team-6-project/assets/rent-yacht-mb-CxDIDohi.png 1x, /team-6-project/assets/rent-yacht-mb@2x-CfoseVZG.png 2x"
+        media="(max-width: 767px)"
+      />
+
+      <img
+        src="../img/rent-img/rent-yacht-mb.jpg"
+        alt="photo of luxurious yacht"
+        class="rent-img"
+      />
+    </picture>
+  </div>
+</section>
+
       <section class="reviews">
   <div class="container">
     <div class="reviews-content">
