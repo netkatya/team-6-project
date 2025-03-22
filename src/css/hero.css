@@ -1,5 +1,4 @@
 .hero {
-    position: relative; 
     background-image: linear-gradient(rgba(17, 19, 31, 0.15),
      rgba(17, 19, 31, 0.75), rgba(17, 19, 31, 0.98)), 
      url(/img/background-mob.jpg);
