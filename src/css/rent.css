@@ -109,4 +109,7 @@
   .rent-text-container {
     margin: 0;
   }
+  .rent-form-button {
+    margin-bottom: 0;
+  }
 }
