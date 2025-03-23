@@ -26,12 +26,8 @@
   position: relative;
   padding-top: 16px;
   padding-bottom: 40px;
-
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
 }
 
 .mob-header {
@@ -39,14 +35,17 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fbfbfb;
-  margin-bottom: 200px;
+
   border-radius: 8px;
   width: 335px;
   height: 42px;
   padding: 0 20px;
   position: absolute;
+
   left: 50%;
   transform: translateX(-50%);
+
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -57,7 +56,7 @@
 }
 
 .mob-btn-close {
-  all: unset; /* Скидає всі стандартні стилі браузера */
+  all: unset;
   background: none;
   border: none;
   top: 7px;
@@ -67,14 +66,12 @@
 }
 
 .nav {
-  margin: auto;
+  margin-top: 0;
+  margin-bottom: auto;
 }
 
 .mob-menu-list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .mob-menu-item {
@@ -84,6 +81,11 @@
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
+  margin-bottom: 8px;
+}
+
+.mob-menu-item:last-child {
+  margin-bottom: 0;
 }
 
 .mob-menu-link {
@@ -97,13 +99,20 @@
   border-radius: 8px;
   text-decoration: none;
 
-  transition: background-color 0.3s; /* Плавна зміна кольору */
+  transition: background-color 0.3s;
 }
 
 .mob-menu-link:hover,
 .mob-menu-link:focus {
   background-color: #1b414b;
   color: #fbfbfb;
+}
+
+.mob-social {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .mob-social-list {
