@@ -25,8 +25,7 @@
 .mob-menu-container {
   position: relative;
   padding: 16px 20px 40px;
-  min-width: 320px;
-  max-width: 375px;
+
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -43,8 +42,7 @@
   border-radius: 8px;
   width: 335px;
   height: 42px;
-  padding: 0 20px;
-  position: absolute;
+
   left: 50%;
   transform: translateX(-50%);
 }
