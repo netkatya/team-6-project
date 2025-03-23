@@ -80,9 +80,6 @@
     margin-top: -67px;
     padding-bottom: 75px;
 }
-.aboutus-descr-container {
-    max-width: 0;
-}
 .aboutus-container {
     padding: 50px 32px;
 }
@@ -99,7 +96,7 @@
     .aboutus-text {
     font-size: 13px;
     line-height: 1.15;
-    max-width: 373px ;}
+    max-width: 382px ;}
 
  .aboutus-container {
     padding: 50px 32px 50px 32px;
@@ -108,40 +105,27 @@
 
 
 @media only screen and (min-width: 1280px) {
-      
-    
     .aboutus {
         margin-top: -35px;
-        }
-                       
-
-        
+        }    
     .aboutus-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 50px 50px 100px 50px;
-        
+    }    
+    .aboutus-title {max-width: 537px;}
+    .aboutus-subtitle {max-width: 337px; }
+    .aboutus-text {max-width: 355px;}
+    .yacht-img {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
     }
-    
-    .aboutus-title {
-       max-width: 537px;}
-    
-    .aboutus-descr-container {
-       max-width: 354px;
-        }
-    
-    
-        .yacht-img {
-        border-top-right-radius: 24px;
-        border-bottom-right-radius: 24px;
-       
-                    }
 }
-
 @media screen and (min-width: 1440px) {        
+    .aboutus-subtitle {
+    max-width: 393px;}
     
-    .aboutus-descr-container {
-    max-width: 404px;
-    }
+    .aboutus-text {
+    max-width: 404px;}
 }
