@@ -5,12 +5,10 @@
 .aboutus-container {
    
     padding: 40px 20px 335px 20px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-radius: 24px;
     border: none;
     background-color:#fbfbfb;
     text-align: left;
-    display: flex;
     flex-direction: column;
 
 }
@@ -73,7 +71,7 @@
     margin-top: -67px;
 }
     .aboutus-container {
-        padding: 50px 136px 244px 32px;
+    padding: 50px 136px 244px 32px;
     }
     
     .aboutus-title {
@@ -127,16 +125,7 @@
                     }
 }
 
-@media screen and (min-width: 1440px) {
-        .aboutus {}
-    
-        
-    
-        .aboutus-container {
-
-        }
-    
-    .aboutus-title {}
+@media screen and (min-width: 1440px) {        
     
     .aboutus-descr-container {
     max-width: 404px;
