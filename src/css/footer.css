@@ -36,6 +36,7 @@
   display: flex;
   padding: 0;
   border-radius: 8px;
+  transition-property: 250ms ease-in-out;
 }
 .footer-nav-link {
   display: flex;
@@ -52,6 +53,7 @@
   background: rgba(251, 251, 251, 0.3);
   border-radius: 8px;
   padding: 15px 12px;
+  transition-property: 250ms ease-in-out;
 }
 
 .footer-nav-item:focus,
@@ -74,6 +76,7 @@
 }
 
 .footer-icon {
+  transition-property: 250ms ease-in-out;
   fill: #fbfbfb;
 }
 
