@@ -1,109 +1,200 @@
 .footer {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
+  padding: 0 10px;
 }
 
-.footer-div {
+.footer-container {
+  padding: 40px 30px 116px 20px;
+  position: relative;
   border-radius: 24px 24px 0 0;
-  height: 412px;
+  width: 355px;
+  /* height: 412px; */
   background: #1b414b;
 }
-.logo-footer {
+
+.footer-h {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 80px;
+  column-gap: 37px;
+}
+
+.footer-logo {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
-  padding-top: 40px;
-  padding-left: 30px;
-}
-
-.footer-div-ppp {
-  display: flex;
-  justify-content: space-between;
-  justify-content: center;
-}
-.footer-div-cont {
-  display: flex;
 }
 
 .footer-menu {
   display: flex;
   gap: 4px;
-  padding-right: 30px;
-  padding-top: 40px;
-  padding-left: 37px;
 }
-.footer-li {
+.footer-nav-item {
+  width: 66px;
+  height: 40px;
+  display: flex;
+  padding: 0;
+  border-radius: 8px;
+}
+.footer-nav-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
-  width: 66px;
-  height: 40px;
-  background: rgba(251, 251, 251, 0.3);
+  width: 100%;
+  height: 100%;
   font-weight: 400;
   font-size: 9px;
   line-height: 1.3;
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
+  background: rgba(251, 251, 251, 0.3);
+  border-radius: 8px;
+  padding: 15px 12px;
 }
-.footer-li:hover,
-.footer-li:focus {
-  background: #fbfbfb;
 
-  font-size: 9px;
-  line-height: 1.3;
-  text-transform: uppercase;
-  text-align: center;
+.footer-nav-item:focus,
+.footer-nav-item:hover {
+  background: #fbfbfb;
+}
+
+.footer-nav-item:focus .footer-nav-link,
+.footer-nav-item:hover .footer-nav-link {
   color: #1b414b;
 }
 
-.footer-svg {
+.footer-soc-media {
+  margin: 0 auto;
+}
+.footer-socials {
   display: flex;
-  fill: #fbfbfb;
-  width: 24px;
-  height: 24px;
+  gap: 8px;
+  justify-content: center;
 }
 
-.footer-sv {
+.footer-icon {
+  fill: #fbfbfb;
 }
-.footer-ul {
-  display: flex;
-  flex-wrap: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80px;
+
+.footer-icon:focus,
+.footer-icon:hover {
+  fill: rgba(251, 251, 251, 0.8);
 }
 
 .footer-text {
-  display: block;
-  padding: 39px 38px 0 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.footer-slogan {
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  max-width: 277px;
 }
 
-.info {
+.privacy {
   display: flex;
   gap: 20px;
-  padding-top: 82px;
+  position: absolute;
+  bottom: 20px;
+  left: 54px;
+}
+.privacy-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
   color: rgba(251, 251, 251, 0.4);
-  justify-content: center;
-  align-items: center;
 }
-.info-link {
+@media screen and (max-width: 375px) {
+  .privacy {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 0 16px;
+  }
+  .footer-container {
+    padding: 50px 48px 20px;
+    width: 736px;
+    height: 418px;
+  }
+  .footer-h {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-nav-item {
+    width: 91px;
+  }
+
+  .footer-nav-link {
+    padding: 15px 25px;
+  }
+
+  .footer-soc-media {
+    margin: 0;
+  }
+  .footer-text {
+    margin-top: 96px;
+  }
+
+  .footer-slogan {
+    font-size: 32px;
+    max-width: 603px;
+  }
+  .privacy {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .privacy-text {
+    font-size: 14px;
+    line-height: 1.18;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 0 25px;
+  }
+  .footer-container {
+    padding: 50px 75px 20px;
+    width: 1230px;
+  }
+
+  .footer-text {
+    margin-top: 96px;
+  }
+
+  .footer-slogan {
+    max-width: 630px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    width: 1390px;
+  }
+
+  .footer-text {
+    margin-top: 98px;
+  }
+  .footer-slogan {
+    max-width: 699px;
+  }
 }
