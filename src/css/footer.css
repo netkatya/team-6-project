@@ -1,21 +1,109 @@
 .footer {
-  padding: 20px 0;
-}
-.footer-desc {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
   text-align: center;
 }
-.footer-link {
-  position: relative;
+
+.footer-div {
+  border-radius: 24px 24px 0 0;
+  height: 412px;
+  background: #1b414b;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+.logo-footer {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #fbfbfb;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.footer-div-ppp {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.footer-div-cont {
+  display: flex;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 4px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-left: 37px;
+}
+.footer-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 66px;
+  height: 40px;
+  background: rgba(251, 251, 251, 0.3);
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-li:hover,
+.footer-li:focus {
+  background: #fbfbfb;
+
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1b414b;
+}
+
+.footer-svg {
+  display: flex;
+  fill: #fbfbfb;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-sv {
+}
+.footer-ul {
+  display: flex;
+  flex-wrap: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.footer-text {
+  display: block;
+  padding: 39px 38px 0 38px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  padding-top: 82px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+.info-link {
 }
