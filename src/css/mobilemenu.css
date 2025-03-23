@@ -24,7 +24,8 @@
 
 .mob-menu-container {
   position: relative;
-  padding: 16px 20px 40px;
+  padding-top: 16px;
+  padding-bottom: 40px;
 
   display: flex;
   flex-direction: column;
