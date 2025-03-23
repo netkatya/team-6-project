@@ -2,7 +2,13 @@
     margin-top: -59px;
 }
 
+.container {
+   
+    
+    }
+    
 .aboutus-container {
+   
     padding: 40px 20px 90px 20px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
@@ -11,7 +17,9 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
+  
 
 .aboutus-title {
     font-weight: 500;
@@ -45,7 +53,11 @@
     opacity: 0.4;
 }
 .aboutus-image {
-    max-width: 100%;
+}
+
+.yacht-img {
+   width: 100%;
+   height: auto;
 }
 
 @media screen and (min-width: 768px) {
