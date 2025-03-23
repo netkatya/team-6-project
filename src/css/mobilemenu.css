@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-
   background-color: #0e1823;
 
   opacity: 0;
@@ -26,11 +25,13 @@
 .mob-menu-container {
   position: relative;
   padding: 16px 20px 40px;
-
+  min-width: 320px;
+  max-width: 375px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-content: center;
   height: 100%;
+  margin: 0 auto;
 }
 
 .mob-header {
@@ -38,19 +39,17 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fbfbfb;
-
+  margin-bottom: 200px;
   border-radius: 8px;
   width: 335px;
   height: 42px;
-
+  padding: 0 20px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .logo {
-  width: 52px;
-  height: 18px;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -63,28 +62,18 @@
   border: none;
   top: 7px;
   right: 20px;
-
-  fill: #055545;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  fill: #438b7d;
   position: absolute;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 200px;
-  margin-bottom: auto;
+  margin: auto;
 }
 
 .mob-menu-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 8px;
 }
 
@@ -120,7 +109,6 @@
 .mob-social-list {
   display: flex;
   justify-content: center;
-  flex-direction: row;
   gap: 8px;
 }
 
@@ -131,12 +119,6 @@
 .mob-icon:hover,
 .mob-icon:focus {
   fill: rgba(251, 251, 251, 0.8);
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .mob-header {
-    padding: 16px 20px;
-  }
 }
 
 @media screen and (min-width: 768px) {
