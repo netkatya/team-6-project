@@ -7,7 +7,6 @@
   position: relative;
   border-radius: 24px 24px 0 0;
   width: 355px;
-  /* height: 412px; */
   background: #1b414b;
 }
 
@@ -196,8 +195,5 @@
 
   .footer-text {
     margin-top: 98px;
-  }
-  .footer-slogan {
-    max-width: 699px;
   }
 }
