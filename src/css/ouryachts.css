@@ -259,6 +259,10 @@
 
 /* #region Styles-for-Desktop-HD-devices */
 @media screen and (min-width: 1440px) {
+  .our-yachts-section-cont {
+    padding: 0 100px;
+  }
+
   .our-yachts-section-header {
     max-width: 690px;
   }

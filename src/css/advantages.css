@@ -113,7 +113,9 @@
   .advantages-item {
     width: calc((100% - 44px) / 2);
   }
-
+  .advantages-header::after {
+    width: 280 px;
+  }
   .advantages-img {
     max-width: 432px;
     height: auto;
@@ -121,11 +123,27 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .advantages-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .advantages-yacht {
     max-width: 768px;
   }
 
     .advantages-img {
-      min-width: 540px;
+      max-width: 540px;
     }
+
+        .advantages-header::after {
+          width: 318px;
+        }
+
+        .advantages-list {
+          column-gap: 32px;
+        }
+    
+        .advantages-item {
+          width: calc((100% - 32px) / 2);
+        }
 }
