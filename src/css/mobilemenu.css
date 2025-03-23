@@ -42,7 +42,8 @@
   border-radius: 8px;
   width: 335px;
   height: 42px;
-
+  padding: 0 20px;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
