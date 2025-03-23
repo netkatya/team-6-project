@@ -2,9 +2,19 @@
     margin-top: -59px;
 }
 
+.aboutus-content-container {
+    border-radius: 24px;
+    border: none;
+    background-color: #fbfbfb;
+    text-align: left;
+    flex-direction: column;
+   
+
+}
+
 .aboutus-container {
    
-    padding: 40px 20px 335px 20px;
+    padding: 40px 20px 40px 20px ;
     border-radius: 24px;
     border: none;
     background-color:#fbfbfb;
@@ -44,18 +54,22 @@
     letter-spacing: -0.02em;
     color: #040306;
     opacity: 0.4;
+
 }
+.image-container {
+    padding: 0;
+}
+
 .aboutus-image {
     width: 100%;
      height: 100%;
-     position: relative;
-     z-index: 999;
+    
     }
 
 .yacht-img {
    width: 100%;
    height: 100%;
-  transform: translateY(-295px);
+
   
    /*
    position: absolute;
@@ -70,10 +84,9 @@
    .aboutus {
     margin-top: -67px;
 }
-    .aboutus-container {
-    padding: 50px 136px 244px 32px;
-    }
-    
+.aboutus-container {
+    padding: 50px 32px;
+}
     .aboutus-title {
     max-width: 536px;
     font-size: 48px;
@@ -90,25 +103,30 @@
     .aboutus-text {
     font-size: 13px;
     line-height: 1.15;}
-    
+
+ .aboutus-container {
+    padding: 50px 32px 50px 32px;
+ }   
  
-    .yacht-img {
-     transform: translateY(-204px);
+  
 }
-}
+
 
 @media only screen and (min-width: 1280px) {
       
     
     .aboutus {
-            margin-top: -35px;
+        margin-top: -35px;
         }
-          
-    
+                       
+
+        
     .aboutus-container {
-        flex-direction: row;
-         justify-content: space-between;
-         padding: 50px 50px 415px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 100px 50px;
+        
     }
     
     .aboutus-title {
@@ -121,7 +139,8 @@
     
         .yacht-img {
         border-top-right-radius: 24px;
-        transform: translateY(-315px);
+        border-bottom-right-radius: 24px;
+       
                     }
 }
 
