@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/team-6-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-6-project/assets/index-CdLweS2o.css">
+    <link rel="stylesheet" crossorigin href="/team-6-project/assets/index-7joFdHzW.css">
   </head>
   <body>
     <header class="header">
@@ -462,38 +462,46 @@
       <h2 class="rent-heading">Rent a yacht now</h2>
       <form action="rent-form">
         <div class="rent-form-container">
-          <input
-            type="text"
-            name="user-name"
-            id="user-name"
-            placeholder="Full Name"
-            class="rent-form-input"
-            required
-          />
-          <input
-            type="email"
-            name="user-email"
-            id="user-email"
-            placeholder="Email"
-            class="rent-form-input"
-            required
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          />
-          <input
-            type="tel"
-            name="user-tel"
-            id="user-tel"
-            placeholder="Number"
-            class="rent-form-input"
-            required
-            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
-          />
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            placeholder="Comment"
-            class="rent-form-input rent-textarea"
-          ></textarea>
+          <label for="user-name">
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Full Name"
+              class="rent-form-input"
+              required
+            />
+          </label>
+          <label for="user-email">
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              class="rent-form-input"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+          </label>
+          <label for="user-tel">
+            <input
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="Number"
+              class="rent-form-input"
+              required
+              pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            />
+          </label>
+          <label for="user-comment">
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              class="rent-form-input rent-textarea"
+            ></textarea>
+          </label>
         </div>
         <button type="submit" class="rent-form-button">Send</button>
       </form>
