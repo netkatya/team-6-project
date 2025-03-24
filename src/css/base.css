@@ -3,4 +3,8 @@ body {
   margin: 0;
   background-color: #0e1823;
   color: #fbfbfb;
+  overflow-x: hidden;
+    /* Prevent horizontal scroll */
+    width: 100%;
+    /* Ensure body doesn't exceed viewport */
 }
