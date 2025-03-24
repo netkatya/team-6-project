@@ -44,8 +44,6 @@
 
   left: 50%;
   transform: translateX(-50%);
-
-  margin-bottom: 200px;
 }
 
 .logo {
@@ -63,15 +61,17 @@
   right: 20px;
   fill: #438b7d;
   position: absolute;
+  cursor: pointer;
 }
 
 .nav {
-  margin-top: 0;
+  margin-top: 243px;
   margin-bottom: auto;
+  width: 100%;
 }
 
 .mob-menu-list {
-  list-style: none;
+  margin: 0 auto;
 }
 
 .mob-menu-item {
@@ -108,14 +108,13 @@
   color: #fbfbfb;
 }
 
-.mob-social {
+
+
+.mob-social-list {
   position: absolute;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.mob-social-list {
   display: flex;
   justify-content: center;
   gap: 8px;
