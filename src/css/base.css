@@ -1,8 +1,10 @@
 body {
-  font-family: "Inter", sans-serif;
-  min-width: 100vw;
-  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   background-color: #0e1823;
+  color: #fbfbfb;
+  overflow-x: hidden;
+    /* Prevent horizontal scroll */
+    width: 100%;
+    
 }
-
