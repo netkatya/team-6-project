@@ -18,8 +18,8 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-
   transform: translateX(0);
+  z-index: 9999;
 }
 
 .mob-menu-container {
