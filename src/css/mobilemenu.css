@@ -62,6 +62,7 @@
   fill: #438b7d;
   position: absolute;
   cursor: pointer;
+  z-index: 99999;
 }
 
 .nav {
