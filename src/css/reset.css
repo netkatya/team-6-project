@@ -8,16 +8,16 @@ p {
   margin: 0;
 }
 
-ul {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
+  padding-left: 0;
 }
 
 li {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
 }
 
 a {
