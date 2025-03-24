@@ -1,0 +1,136 @@
+.mob-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0e1823;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+  transform: translateX(0);
+}
+
+.mob-menu-container {
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.mob-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+
+  border-radius: 8px;
+  width: 335px;
+  height: 42px;
+  padding: 0 20px;
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
+
+.mob-btn-close {
+  all: unset;
+  background: none;
+  border: none;
+  top: 7px;
+  right: 20px;
+  fill: #438b7d;
+  position: absolute;
+  cursor: pointer;
+}
+
+.nav {
+  margin-top: 243px;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.mob-menu-list {
+  margin: 0 auto;
+}
+
+.mob-menu-item {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 8px;
+}
+
+.mob-menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.mob-menu-link {
+  display: block;
+  width: 91px;
+  height: 40px;
+  padding: 15px 25px;
+  text-align: center;
+
+  background-color: rgba(27, 65, 75, 0.5);
+  border-radius: 8px;
+  text-decoration: none;
+
+  transition: background-color 0.3s;
+}
+
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  background-color: #1b414b;
+  color: #fbfbfb;
+}
+
+
+
+.mob-social-list {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.mob-icon {
+  fill: #fbfbfb;
+}
+
+.mob-icon:hover,
+.mob-icon:focus {
+  fill: rgba(251, 251, 251, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
