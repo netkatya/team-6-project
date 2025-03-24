@@ -66,8 +66,7 @@
 
 .nav {
   margin-top: 243px;
-  margin-bottom: auto;
-  width: 100%;
+  display: flex;
 }
 
 .mob-menu-list {
