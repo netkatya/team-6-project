@@ -6,5 +6,5 @@ body {
   overflow-x: hidden;
     /* Prevent horizontal scroll */
     width: 100%;
-    /* Ensure body doesn't exceed viewport */
+    
 }
