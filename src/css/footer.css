@@ -1,19 +1,19 @@
 .footer {
-  padding: 0 10px;
+  padding-top: 40 px;
 }
 
 .footer-container {
-  padding: 40px 30px 116px 20px;
-  position: relative;
+  padding: 0 10px;
+}
+
+.footer-div {
+  padding: 40px 30px 20px 30px;
   border-radius: 24px 24px 0 0;
-  width: 355px;
-  /* height: 412px; */
   background: #1b414b;
 }
 
 .footer-h {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   row-gap: 80px;
   column-gap: 37px;
@@ -30,6 +30,7 @@
   display: flex;
   gap: 4px;
 }
+
 .footer-nav-item {
   width: 66px;
   height: 40px;
@@ -83,10 +84,11 @@
 }
 
 .footer-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  max-width: 275px;
+  margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 82px;
 }
 
 .footer-slogan {
@@ -102,10 +104,9 @@
 .privacy {
   display: flex;
   gap: 20px;
-  position: absolute;
-  bottom: 20px;
-  left: 54px;
+  justify-content: center;
 }
+
 .privacy-text {
   font-weight: 400;
   font-size: 12px;
@@ -114,23 +115,19 @@
   text-align: center;
   color: rgba(251, 251, 251, 0.4);
 }
-@media screen and (max-width: 375px) {
-  .privacy {
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
+
 
 @media screen and (min-width: 768px) {
   .footer {
     padding: 0 16px;
   }
+
   .footer-container {
     padding: 50px 48px 20px;
     width: 736px;
     height: 418px;
   }
+
   .footer-h {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -151,17 +148,16 @@
     margin: 0;
   }
   .footer-text {
+    max-width: 640px;
     margin-top: 96px;
+    margin-bottom: 99px;
   }
 
   .footer-slogan {
     font-size: 32px;
     max-width: 603px;
   }
-  .privacy {
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  
   .privacy-text {
     font-size: 14px;
     line-height: 1.18;
@@ -179,6 +175,7 @@
 
   .footer-text {
     margin-top: 96px;
+    
   }
 
   .footer-slogan {
@@ -187,13 +184,11 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .footer-container {
-    width: 1390px;
-  }
-
+  
   .footer-text {
     margin-top: 98px;
   }
+
   .footer-slogan {
     max-width: 699px;
   }
