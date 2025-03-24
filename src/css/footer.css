@@ -124,14 +124,17 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 0 16px;
-  }
-
-  .footer-container {
-    padding: 50px 48px 20px;
-    width: 736px;
-    height: 418px;
-  }
+      padding-top: 75px;
+    }
+  
+    .footer-container {
+      padding: 0 16px;
+    }
+  
+    .footer-div {
+      padding: 50px 48px 20px 48px;
+    }
+  
 
   .footer-h {
     flex-wrap: nowrap;
@@ -170,13 +173,16 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    padding: 0 25px;
-  }
-  .footer-container {
-    padding: 50px 75px 20px;
-    width: 1230px;
-  }
+ 
+  
+    .footer-container {
+      padding: 0 10px;
+    }
+  
+    .footer-div {
+      padding: 50px 75px 20px 75px;
+    }
+  
 
   .footer-text {
     margin-top: 96px;
