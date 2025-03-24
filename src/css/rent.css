@@ -21,8 +21,7 @@
   padding: 14px 18px 14px 18px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
-  padding: 14px 261px 14px 18px;
-  width: 100%;
+  width: 335px;
   height: 42px;
   transition: border 250ms ease-in-out;
 }
@@ -37,7 +36,6 @@
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
 .rent-textarea {
-  white-space: nowrap;
   resize: none;
   height: 108px;
 }
@@ -69,7 +67,6 @@
   height: 100%;
 }
 
-
 @media screen and (min-width: 768px) {
   .rent-section {
     padding: 75px 0 75px 0;
@@ -85,6 +82,7 @@
   }
   .rent-form-input {
     height: 54px;
+    width: 472px;
   }
   .rent-form-input::placeholder {
     font-size: 14px;
@@ -117,9 +115,9 @@
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .rent-container {
     padding-left: 50px;
     padding-right: 100px;
-  } 
+  }
 }
