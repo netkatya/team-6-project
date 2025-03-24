@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
               item.style.transition = "opacity 1s ease, transform 1s ease";
               item.style.opacity = "1";
               item.style.transform = "translateY(0)";
-            }, index * 1500); // 2 seconds delay per item
+            }, index * 700); 
           });
         }
       });
