@@ -73,6 +73,9 @@
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
 }
+
+
+
 @media screen and (min-width: 768px) {
   .reviews {
     padding: 75px 0;
