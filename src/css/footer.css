@@ -56,12 +56,12 @@
   background: rgba(251, 251, 251, 0.3);
   border-radius: 8px;
   padding: 15px 12px;
-  transition-property: 250ms ease-in-out;
+  transition-property: background-color 250ms ease-in-out;
 }
 
 .footer-nav-item:focus,
 .footer-nav-item:hover {
-  background: #fbfbfb;
+  background-color: #fbfbfb;
 }
 
 .footer-nav-item:focus .footer-nav-link,
@@ -79,7 +79,7 @@
 }
 
 .footer-icon {
-  transition-property: 250ms ease-in-out;
+  transition-property: fill 250ms ease-in-out;
   fill: #fbfbfb;
 }
 
