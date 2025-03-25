@@ -87,7 +87,7 @@
         </ul>
       </nav>
 
-      <button class="burger-button" type="button" data-menu-open>
+      <button class="burger-button" type="button" aria-label="click to open menu" data-menu-open>
         <svg class="burger-icon" width="28" height="28">
           <use href="/team-6-project/assets/icon-DwA5eIsY.svg#icon-menu"></use>
         </svg>
@@ -100,7 +100,11 @@
   <div class="mob-menu-container container">
     <div class="mob-header">
       <a href="./index.html" class="logo">yachtjet </a>
-      <button class="mob-btn-close" data-menu-close>
+      <button
+        class="mob-btn-close"
+        aria-label="click to close mobile menu"
+        data-menu-close
+      >
         <svg class="icon-close" width="28" height="28">
           <use href="/team-6-project/assets/icon-DwA5eIsY.svg#icon-close"></use>
         </svg>
@@ -111,13 +115,25 @@
     <nav class="nav">
       <ul class="mob-menu-list">
         <li class="mob-menu-item">
-          <a href="#about" class="mob-menu-link">ABOUT</a>
+          <a
+            href="#about"
+            class="mob-menu-link"
+            aria-label="Learn more about us"
+            >ABOUT</a
+          >
         </li>
         <li class="mob-menu-item">
-          <a href="#our-yachts" class="mob-menu-link">YACHTS</a>
+          <a
+            href="#our-yachts"
+            class="mob-menu-link"
+            aria-label="Learn more about our yachts"
+            >YACHTS</a
+          >
         </li>
         <li class="mob-menu-item">
-          <a href="#reviews" class="mob-menu-link">REVIEWS</a>
+          <a href="#reviews" class="mob-menu-link" aria-label="What clients say"
+            >REVIEWS</a
+          >
         </li>
       </ul>
     </nav>
@@ -130,6 +146,7 @@
           class="mob-social-link"
           target="_blank"
           href="https://www.instagram.com/goitclub/"
+          aria-label="Visit our instagram account"
         >
           <svg class="mob-icon" width="20" height="20">
             <use href="/team-6-project/assets/icon-DwA5eIsY.svg#icon-instagram"></use>
@@ -141,6 +158,7 @@
           class="mob-social-link"
           target="_blank"
           href="https://www.youtube.com/c/GoIT"
+          aria-label="Visit our youtube-channel"
         >
           <svg class="mob-icon" width="20" height="20">
             <use href="/team-6-project/assets/icon-DwA5eIsY.svg#icon-youtube"></use>
@@ -152,6 +170,7 @@
           class="mob-social-link"
           target="_blank"
           href="https://www.facebook.com/goITclub/"
+          aria-label="Visit our facebook page"
         >
           <svg class="mob-icon" width="20" height="20">
             <use href="/team-6-project/assets/icon-DwA5eIsY.svg#icon-facebook"></use>
@@ -165,13 +184,24 @@
     <main>
       <!-- Loads the specified .html file -->
       <section class="hero">
-    <div class="container">
-        <h1 class="hero-title">Explore the High Seas with Our Luxury Yacht Rentals</h1>
-        <p class="hero-text">Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts and embark on an
-        unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.</p>
-        <a class="hero-btn" href="#section-rent">Yacht rental</a>
-    </div>
+  <div class="container">
+    <h1 class="hero-title">
+      Explore the High Seas with Our Luxury Yacht Rentals
+    </h1>
+    <p class="hero-text">
+      Experience the freedom and luxury of yachting on the open seas. Choose
+      from our top-of-the-line yachts and embark on an unforgettable journey
+      surrounded by breathtaking views and state-of-the-art amenities.
+    </p>
+    <a
+      class="hero-btn"
+      href="#section-rent"
+      aria-label="go to yacht rental section"
+      >Yacht rental</a
+    >
+  </div>
 </section>
+
       <section class="aboutus" id="about">
   <div class="container">
     <div class="aboutus-content-container">
@@ -406,6 +436,7 @@
       class="our-yachts-section-button"
       type="button"
       onclick="location.href='#section-rent'"
+      aria-label="go to yacht rental section"
     >
       Yacht rental
     </button>
@@ -518,7 +549,13 @@
             ></textarea>
           </label>
         </div>
-        <button type="submit" class="rent-form-button">Send</button>
+        <button
+          type="submit"
+          class="rent-form-button"
+          aria-label="send form for a yacht rental"
+        >
+          Send
+        </button>
       </form>
     </div>
     <picture>
