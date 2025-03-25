@@ -2,7 +2,11 @@
   <div class="mob-menu-container container">
     <div class="mob-header">
       <a href="./index.html" class="logo">yachtjet </a>
-      <button class="mob-btn-close" data-menu-close>
+      <button
+        class="mob-btn-close"
+        aria-label="click to close mobile menu"
+        data-menu-close
+      >
         <svg class="icon-close" width="28" height="28">
           <use href="/img/icon.svg#icon-close"></use>
         </svg>
@@ -13,13 +17,25 @@
     <nav class="nav">
       <ul class="mob-menu-list">
         <li class="mob-menu-item">
-          <a href="#about" class="mob-menu-link">ABOUT</a>
+          <a
+            href="#about"
+            class="mob-menu-link"
+            aria-label="Learn more about us"
+            >ABOUT</a
+          >
         </li>
         <li class="mob-menu-item">
-          <a href="#our-yachts" class="mob-menu-link">YACHTS</a>
+          <a
+            href="#our-yachts"
+            class="mob-menu-link"
+            aria-label="Learn more about our yachts"
+            >YACHTS</a
+          >
         </li>
         <li class="mob-menu-item">
-          <a href="#reviews" class="mob-menu-link">REVIEWS</a>
+          <a href="#reviews" class="mob-menu-link" aria-label="What clients say"
+            >REVIEWS</a
+          >
         </li>
       </ul>
     </nav>
@@ -32,6 +48,7 @@
           class="mob-social-link"
           target="_blank"
           href="https://www.instagram.com/goitclub/"
+          aria-label="Visit our instagram account"
         >
           <svg class="mob-icon" width="20" height="20">
             <use href="/img/icon.svg#icon-instagram"></use>
@@ -43,6 +60,7 @@
           class="mob-social-link"
           target="_blank"
           href="https://www.youtube.com/c/GoIT"
+          aria-label="Visit our youtube-channel"
         >
           <svg class="mob-icon" width="20" height="20">
             <use href="/img/icon.svg#icon-youtube"></use>
@@ -54,6 +72,7 @@
           class="mob-social-link"
           target="_blank"
           href="https://www.facebook.com/goITclub/"
+          aria-label="Visit our facebook page"
         >
           <svg class="mob-icon" width="20" height="20">
             <use href="/img/icon.svg#icon-facebook"></use>
